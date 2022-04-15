@@ -14,7 +14,8 @@ let y1;
 let flames = [];
 
 function setup(){
-  createCanvas(800,800);
+  let cnv = createCanvas(800,800);
+  cnv.parent("canvasContainer");
   background(255);
   xPos = 100;
   yPos = height - 300;

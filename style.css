@@ -5,3 +5,7 @@ html, body {
 canvas {
   display: block;
 }
+
+#canvasContainer {
+  margin-left: 200px;
+}
